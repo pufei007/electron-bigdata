@@ -1,0 +1,29 @@
+{
+  "name": "electron-bigdata",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --platform=win32 --out=helloApp --arch=x64 --app-version=1.0.0 --electron-version=3.0.7 --overwrite --icon=./src/favicon.ico"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-winstaller": "^2.7.0"
+  },
+  "dependencies": {
+    "electron-packager": "^13.0.1",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
+
